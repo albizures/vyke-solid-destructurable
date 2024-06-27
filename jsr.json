@@ -1,11 +1,7 @@
 {
-	"name": "@vyke/results",
+	"name": "@vyke/solid-destructurable",
 	"version": "0.4.2",
 	"exports": {
-		".": "./src/index.ts",
-		"./result": "./src/result.ts",
-		"./option": "./src/option.ts",
-		"./r": "./src/r.ts",
-		"./o": "./src/o.ts"
+		".": "./src/index.ts"
 	}
 }
