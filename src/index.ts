@@ -43,7 +43,7 @@ type DefaultProps<TProps extends Record<string | symbol, any>> = {
  * function App(props: AppProps) {
  * 	const { title } = destructurable(props)
  * 	const store = createStore<StoreState>({ theme: 'light' })
- * 	const { theme } = destructurable(store, { theme: 'dark'})
+ * 	const { theme } = destructurable(store, { theme: 'dark' })
  *
  * 	return (
  * 		<div>
